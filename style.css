@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#header {
+    position: absolute;
+    z-index: 2;
+}
+#signin {
+    position: absolute;
+    z-index: 3;
+  
+}
+#signup {
+    position: absolute;
+    z-index: 3;
+  
+}
+#dashbroad {
+    position: absolute;
+    z-index: 3;
+}
+#footer{
+    position: absolute;
+    z-index: 1;
+    margin-top: -150px;
+}
+@layer components {
+    .menu-item {
+        @apply inline-block hover:border-b-4 hover:border-black;
+    }
+    .menu-item-admin {
+        @apply inline-block pb-4 pl-5 text-gray-600 hover:text-black border-b border-gray-300 hover:border-b-4 hover:border-red-300 hover:shadow-2xl;
+    }
+    .mega-sub-item {
+        @apply block p-2 hover:bg-white hover:text-black cursor-pointer;
+    }
+    .mega-sub-item-title {
+        @apply block font-semibold text-white text-xl mb-5;
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "routes": [
+        {
+            "src": "/",
+            "dest": "/"
+        },
+        {
+            "src":"/product",
+            "dest": "/"
+        },
+        {
+            "src":"/product/(.*)",
+            "dest": "/"
+        },
+        {
+            "src":"/admin/products",
+            "dest": "/"
+        }
+    ]
+}
