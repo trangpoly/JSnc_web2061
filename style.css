@@ -37,4 +37,7 @@
     .mega-sub-item-title {
         @apply block font-semibold text-white text-xl mb-5;
     }
+    .menu-cate {
+        @apply inline-block hover:border-b-4 hover:border-red-900;
+    }
 }

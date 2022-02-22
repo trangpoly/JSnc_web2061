@@ -1,3 +1,7 @@
+import toastr from "toastr";
+import { reRender } from "../utils/rerender";
+import CartPage from "../page/cart";
+
 const Header = {
     render() {
         return `<div id="logo" class="w-1/5 h-min-50">
@@ -22,30 +26,55 @@ const Header = {
                 <input type="text" class="h-full w-full" placeholder="  Tìm kiếm" >
             </form>
         </div></li>
-        <li href="" class="m-auto h-6 w-6 "><svg xmlns="http://www.w3.org/2000/svg" class="hover:stroke-red-700"
+        <li id = "cart" class="m-auto h-6 w-6 "><svg xmlns="http://www.w3.org/2000/svg" class="hover:stroke-red-700"
                 fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                     d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
             </svg>
         </li>
-        <li href="" class="group m-auto h-6 w-6"><svg xmlns="http://www.w3.org/2000/svg"
+        <li href="/cart" class="group m-auto h-6 w-6"><svg xmlns="http://www.w3.org/2000/svg"
                 class="hover:stroke-red-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                     d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
             </svg>
-            <div
-                class="grid grid-flow-row-4 w-2/12  p-5 absolute top-full right-0 bg-red-300 text-white mt-14 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:mt-0 transition-all duration-500">
+            <div class="grid grid-flow-row-4 w-2/12  p-2 absolute top-full right-0 bg-red-300 text-white mt-14 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:mt-0 transition-all duration-500">
                 <ul class="p-2">
+                    ${localStorage.getItem("user") ? `
+                    <li class="mega-sub-item-title">Chào <span id="name"></span></li>
+                    <li><a class="mega-sub-item" href="#">Quản lý tài khoản</a></li>
+                    <li><a id="logout" class="mega-sub-item">Đăng xuất</a></li>
+                    ` : `
                     <li><a class="mega-sub-item-title" href="#">Quản lý tài khoản</a></li>
-                    <li><a class="mega-sub-item" href="/admin">Đăng nhập admin</a></li>
                     <li><a class="mega-sub-item" href="/signin">Đăng nhập</a></li>
-                    <li><a class="mega-sub-item" href="/viewprofile">Thông tin tài khoản</a></li>
                     <li><a class="mega-sub-item" href="/signup">Đăng kí</a></li>
+                    `}
+                    
                 </ul>
             </div>
         </li>
     </ul>
 </div>`;
+    },
+    afterRender() {
+        const cartUrl = document.getElementById("cart");
+        cartUrl.addEventListener("click", (e) => {
+            reRender(CartPage, "#home");
+        });
+        const name = document.getElementById("name");
+        if (name) {
+            name.innerHTML = JSON.parse(localStorage.getItem("user")).name;
+        }
+        const logout = document.querySelector("#logout");
+        if (logout) {
+            logout.addEventListener("click", (e) => {
+                localStorage.removeItem("user");
+                toastr.success("Đăng xuất thành công. Trở về trang chủ sau 2s");
+                setTimeout(() => {
+                    document.location.href = "/";
+                    reRender(Header, "#header");
+                }, 2000);
+            });
+        }
     },
 };
 export default Header;

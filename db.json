@@ -1,0 +1,190 @@
+{
+  "users": [
+    {
+      "email": "abc@fpt.edu.vn",
+      "password": "$2a$10$iZrpdN/sXJsv.VTOXlCy9upKNo6QcAkRsKTPejLlhJ7dV57ARQNsO",
+      "name": "Phạm Thu Trang ",
+      "id": 1
+    },
+    {
+      "email": "trangptph19088@gmail.com",
+      "password": "$2a$10$LFkBDhDA3w6SpotLg3rCOu9ePtJfQ7degjNcLnF/PExynlz5f3C5K",
+      "name": "Phạm Thu Trang",
+      "id": 2
+    },
+    {
+      "email": "thuquynhoo29@gmail.com",
+      "password": "$2a$10$BLI3lQCK5Bl9lsbiAVmNhuHgZr.iQvDgZXS0SzZFztstazYtKl14a",
+      "name": "Thu Quỳnh",
+      "id": 3
+    }
+  ],
+  "categoryProducts": [
+    {
+      "name": "T-shirt",
+      "id": 1
+    },
+    {
+      "name": "Dress",
+      "id": 2
+    },
+    {
+      "name": "Hat",
+      "id": 4
+    },
+    {
+      "name": "Shoes ",
+      "id": 5
+    },
+    {
+      "name": "Pants",
+      "id": 6
+    },
+    {
+      "name": "Bag",
+      "id": 7
+    }
+  ],
+  "products": [
+    {
+      "name": "Áo thun nữ màu trơn",
+      "price": 200,
+      "sale": 0,
+      "image": "https://img.ltwebstatic.com/images3_pi/2021/12/16/1639618106457f01b0a26df53b42e1e082f1fcbafe_thumbnail_900x.webp",
+      "desc": "<p>• Chất liệu: len cao cấp được dệt 100% tự nhiên.</p><p>• 2 túi thân áo.</p><p>• Logo Dico được dệt trực tiếp lên mặt trước và sau áo.</p><p>• Bo tay, bo thân và bo cổ trùng màu áo.</p>",
+      "id": 1,
+      "categoryProductId": 1
+    },
+    {
+      "name": "Áo thun nữ màu trơn",
+      "price": 200,
+      "sale": 100,
+      "image": "https://img.ltwebstatic.com/images3_pi/2021/11/19/1637306137bc8b70cb6ad5df2cf196004990b69236_thumbnail_900x.webp",
+      "desc": "<p>• Chất liệu: len cao cấp được dệt 100% tự nhiên.</p><p>• 2 túi thân áo.</p><p>• Logo Dico được dệt trực tiếp lên mặt trước và sau áo.</p><p>• Bo tay, bo thân và bo cổ trùng màu áo.</p>",
+      "id": 2,
+      "categoryProductId": 1
+    },
+    {
+      "name": "Quần ống suông nam",
+      "price": 400,
+      "sale": 160,
+      "image": "https://img.ltwebstatic.com/images3_pi/2021/12/16/1639639039e99486f16b0e4d3cbd0d256127c4938d_thumbnail_900x.webp",
+      "desc": "<p>• Chất liệu: len cao cấp được dệt 100% tự nhiên.</p><p>• 2 túi thân áo.</p><p>• Logo Dico được dệt trực tiếp lên mặt trước và sau áo.</p><p>• Bo tay, bo thân và bo cổ trùng màu áo.</p>",
+      "id": 3,
+      "categoryProductId": 6
+    },
+    {
+      "name": "Váy dài",
+      "price": 520,
+      "sale": 340,
+      "image": "https://img.ltwebstatic.com/images3_pi/2022/01/10/1641780366777da8d1da7060959710c1b651bc84d0_thumbnail_900x.webp",
+      "desc": "<p>• Chất liệu: len cao cấp được dệt 100% tự nhiên.</p><p>• 2 túi thân áo.</p><p>• Logo Dico được dệt trực tiếp lên mặt trước và sau áo.</p><p>• Bo tay, bo thân và bo cổ trùng màu áo.</p>",
+      "id": 4,
+      "categoryProductId": 2
+    },
+    {
+      "name": "Dico Checkerboard Knit Cardigan - Pink",
+      "price": 990,
+      "sale": 740,
+      "image": "https://bizweb.dktcdn.net/100/369/010/products/bob-t-shirts-tan-3-w.jpg?v=1608103670000",
+      "desc": "<p>• Chất liệu: len cao cấp được dệt 100% tự nhiên.</p><p>• 2 túi thân áo.</p><p>• Logo Dico được dệt trực tiếp lên mặt trước và sau áo.</p><p>• Bo tay, bo thân và bo cổ trùng màu áo.</p>",
+      "id": 5,
+      "categoryProductId": 1
+    },
+    {
+      "name": "DirtyCoins Green Tie-dye Hoodie - Dirty Coins",
+      "price": 990,
+      "sale": 0,
+      "image": "https://bizweb.dktcdn.net/100/369/010/products/green-tie-dye-hoodie-1-w.jpg?v=1608971185000",
+      "desc": "<p>• Chất liệu: len cao cấp được dệt 100% tự nhiên.</p><p>• 2 túi thân áo.</p><p>• Logo Dico được dệt trực tiếp lên mặt trước và sau áo.</p><p>• Bo tay, bo thân và bo cổ trùng màu áo.</p>",
+      "id": 6,
+      "categoryProductId": 1
+    },
+    {
+      "name": "DRESSES & SKIRTS - Dirty Coins",
+      "price": 990,
+      "sale": 0,
+      "image": "https://bizweb.dktcdn.net/100/369/010/products/dirtycoins-pattern-skirt-3-w.jpg?v=1611039832000",
+      "desc": "<p>• Chất liệu: len cao cấp được dệt 100% tự nhiên.</p><p>• 2 túi thân áo.</p><p>• Logo Dico được dệt trực tiếp lên mặt trước và sau áo.</p><p>• Bo tay, bo thân và bo cổ trùng màu áo.</p>",
+      "id": 7,
+      "categoryProductId": 2
+    },
+    {
+      "name": "DirtyCoins Fukyba Monogram Polo Dress",
+      "price": 990,
+      "sale": 740,
+      "image": "https://bizweb.dktcdn.net/100/369/010/products/fukyba-monogram-polo-dress-3-w.jpg?v=1609437039097",
+      "desc": "<p>• Chất liệu: len cao cấp được dệt 100% tự nhiên.</p><p>• 2 túi thân áo.</p><p>• Logo Dico được dệt trực tiếp lên mặt trước và sau áo.</p><p>• Bo tay, bo thân và bo cổ trùng màu áo.</p>",
+      "id": 8,
+      "categoryProductId": 2
+    },
+    {
+      "name": "DirtyCoins Logo Polo Dress - Purple",
+      "price": 990,
+      "sale": 740,
+      "image": "https://bizweb.dktcdn.net/100/369/010/products/polodress.jpg?v=1637911588000",
+      "desc": "<p>• Chất liệu: len cao cấp được dệt 100% tự nhiên.</p><p>• 2 túi thân áo.</p><p>• Logo Dico được dệt trực tiếp lên mặt trước và sau áo.</p><p>• Bo tay, bo thân và bo cổ trùng màu áo.</p>",
+      "id": 9,
+      "categoryProductId": 2
+    },
+    {
+      "name": "DirtyCoins Slide - Black/Red",
+      "price": 890,
+      "sale": 540,
+      "image": "https://bizweb.dktcdn.net/100/369/010/products/slide-tan-4.jpg?v=1610009331450",
+      "desc": "<p>• Chất liệu: len cao cấp được dệt 100% tự nhiên.</p><p>• 2 túi thân áo.</p><p>• Logo Dico được dệt trực tiếp lên mặt trước và sau áo.</p><p>• Bo tay, bo thân và bo cổ trùng màu áo.</p>",
+      "id": 10,
+      "categoryProductId": 5
+    },
+    {
+      "name": "Multicolor Monogram Bucket Hat - Black - Dirty Coins",
+      "price": 590,
+      "sale": 340,
+      "image": "https://bizweb.dktcdn.net/100/369/010/products/multicolor-monogram-bucket-hat-whi-2-w.jpg?v=1608025252000",
+      "desc": "<p>• Chất liệu: len cao cấp được dệt 100% tự nhiên.</p><p>• 2 túi thân áo.</p><p>• Logo Dico được dệt trực tiếp lên mặt trước và sau áo.</p><p>• Bo tay, bo thân và bo cổ trùng màu áo.</p>",
+      "id": 11,
+      "categoryProductId": 4
+    },
+    {
+      "name": "DirtyCoins Light Blue Denim Cap",
+      "price": 990,
+      "sale": 0,
+      "image": "https://bizweb.dktcdn.net/100/369/010/products/light-blue-denim-caps-6-w.jpg?v=1608090699000",
+      "desc": "<p>• Chất liệu: len cao cấp được dệt 100% tự nhiên.</p><p>• 2 túi thân áo.</p><p>• Logo Dico được dệt trực tiếp lên mặt trước và sau áo.</p><p>• Bo tay, bo thân và bo cổ trùng màu áo.</p>",
+      "id": 12,
+      "categoryProductId": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "userId": 2,
+      "productId": 12,
+      "content": "Sản phẩm đẹp!"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "productId": 12,
+      "content": "Chất lượng tuyệt vời!"
+    },
+    {
+      "userId": 2,
+      "productId": 8,
+      "content": "Tuyệt vời",
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "productId": 12,
+      "content": "Xịn quá",
+      "id": 4
+    },
+    {
+      "userId": 3,
+      "productId": 12,
+      "content": "Tuyệt vời",
+      "id": 5
+    }
+  ]
+}
