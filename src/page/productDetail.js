@@ -66,7 +66,7 @@ const ProductDetail = {
 
         </div>
         </div>
-        <div class="w-9/12 flex flex-col m-auto" style = "padding-bottom:200px">
+        <div class="w-9/12 flex flex-col m-auto" style = "padding-bottom:50px">
             <h2 class="w-full mt-3 ml-2 text-2xl text-left font-semibold font-mono">Sản phẩm liên quan</h2>
             ${await ProductInvolve.render(data.categoryProductId)}
             

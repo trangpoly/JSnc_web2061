@@ -10,7 +10,7 @@ const NavbarAdmin = {
                 <div class="w-full pt-10 menu-item-admin hover:bg-red-300"><i class="fas fa-chart-line mr-4 text-gray-600"></i><a href="/admin">Dashbroad</a></div>
                 <div class="w-full pt-10 menu-item-admin hover:bg-red-300"><i class="far fa-list-alt mr-4 text-gray-600"></i><a href="/admin/categorys">Categories</a></div>
                 <div class="w-full pt-10 menu-item-admin hover:bg-red-300"><i class="fas fa-clipboard-list mr-4 text-gray-600"></i><a href="/admin/products">Product</a></div>
-                <div class="w-full pt-10 menu-item-admin hover:bg-red-300"><i class="fas fa-clipboard-list mr-4 text-gray-600"></i><a href="/admin_order">Order</a></div>
+                <div class="w-full pt-10 menu-item-admin hover:bg-red-300"><i class="fas fa-clipboard-list mr-4 text-gray-600"></i><a href="/admin/order">Order</a></div>
                 <div class="w-full pt-10 menu-item-admin hover:bg-red-300"><i class="far fa-comments mr-4 text-gray-600"></i><a href="/admin_comment">Comment</a></div>
                 <div class="w-full pt-10 menu-item-admin hover:bg-red-300"><i class="fas fa-users mr-4 text-gray-600"></i><a href="/admin_users">Users</a></div>
             </nav>

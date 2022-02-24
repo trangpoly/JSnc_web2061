@@ -26,11 +26,11 @@ const Header = {
                 <input type="text" class="h-full w-full" placeholder="  Tìm kiếm" >
             </form>
         </div></li>
-        <li id = "cart" class="m-auto h-6 w-6 "><svg xmlns="http://www.w3.org/2000/svg" class="hover:stroke-red-700"
+        <li  class="m-auto h-6 w-6 "><a href="/cart"><svg xmlns="http://www.w3.org/2000/svg" class="hover:stroke-red-700"
                 fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                     d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
-            </svg>
+            </svg></a>
         </li>
         <li href="/cart" class="group m-auto h-6 w-6"><svg xmlns="http://www.w3.org/2000/svg"
                 class="hover:stroke-red-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -42,6 +42,7 @@ const Header = {
                     ${localStorage.getItem("user") ? `
                     <li class="mega-sub-item-title">Chào <span id="name"></span></li>
                     <li><a class="mega-sub-item" href="#">Quản lý tài khoản</a></li>
+                    <li><a class="mega-sub-item" href="/cartInfo">Đơn hàng của bạn</a></li>
                     <li><a id="logout" class="mega-sub-item">Đăng xuất</a></li>
                     ` : `
                     <li><a class="mega-sub-item-title" href="#">Quản lý tài khoản</a></li>
@@ -56,10 +57,6 @@ const Header = {
 </div>`;
     },
     afterRender() {
-        const cartUrl = document.getElementById("cart");
-        cartUrl.addEventListener("click", (e) => {
-            reRender(CartPage, "#home");
-        });
         const name = document.getElementById("name");
         if (name) {
             name.innerHTML = JSON.parse(localStorage.getItem("user")).name;

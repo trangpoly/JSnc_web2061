@@ -1,6 +1,6 @@
 const Footer = {
     render() {
-        return `<div class="w-2/5 ml-20" >
+        return `<div class="w-2/5 ml-20">
         <h1 class="font-mono text-2xl font-bold">Hệ thống cửa hàng</h1>
         <div class="w-2/3 flex flex-row text-xl pt-1">
           <div class="w-1/5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">

@@ -51,18 +51,6 @@ const AddCategory = {
                 addCatePro();
             },
         });
-
-        // const formAddProduct = document.querySelector("#formAddCategory");
-
-        // formAddProduct.addEventListener("submit", async (e) => {
-        //     e.preventDefault();
-        //     addCate({
-        //         name: document.querySelector("#nameCate").value,
-
-        //     }).then(() => {
-        //         reRender(CategorysAdmin, "#home");
-        //     });
-        // });
     },
 
 };

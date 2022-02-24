@@ -28,3 +28,7 @@ export const searchbyName = (name) => {
     const url = `products/?name_like=${name}`;
     return instance.get(url);
 };
+export const rangeProduct = (name) => {
+    const url = `products?_sort=price&_order=${name}`;
+    return instance.get(url);
+};

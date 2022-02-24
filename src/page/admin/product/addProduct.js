@@ -1,6 +1,6 @@
 import axios from "axios";
-// import $ from "jquery";
-// import validate from "jquery-validation";
+import $ from "jquery";
+import validate from "jquery-validation";
 import NavbarAdmin from "../../../composer/navbarAdmin";
 import { add } from "../../../../api/products";
 import { reRender } from "../../../utils/rerender";
@@ -56,6 +56,7 @@ const AddProduct = {
         `;
     },
     afterRender() {
+        NavbarAdmin.afterRender();
         const formAddProduct = document.querySelector("#formAddProduct");
         const CLOUDINARY_PRESET_KEY = "ufnnkotm";
         const CLOUDINARY_API_URL = "https://api.cloudinary.com/v1_1/trangptph18099-web2061/image/upload";

@@ -15,6 +15,8 @@ import CartPage from "./page/cart";
 import ProductPage from "./page/product";
 import EditCategory from "./page/admin/category/editCategory";
 import UsersAdmin from "./page/admin/user/user";
+import CartInfoPage from "./page/cartInfo";
+import OrderAdmin from "./page/admin/order/orderAdmin";
 
 const router = new Navigo("/", { linksSelector: "a", hash: true });
 const print = async (content, id) => {
@@ -45,6 +47,9 @@ router.on({
         const { id } = data;
         print(ProductDetail, id);
     },
+    "/cartInfo": () => {
+        print(CartInfoPage);
+    },
     "/admin": () => {
         print(Dashbroad);
     },
@@ -67,6 +72,9 @@ router.on({
     "admin/category/edit/:id": ({ data }) => {
         const { id } = data;
         print(EditCategory, id);
+    },
+    "admin/order": () => {
+        print(OrderAdmin);
     },
     "/admin_users": () => {
         print(UsersAdmin);

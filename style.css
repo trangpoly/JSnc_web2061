@@ -8,12 +8,17 @@
 #signin {
     position: absolute;
     z-index: 3;
+    width: 100%;
+    top:0;
+    right: 0;
   
 }
 #signup {
     position: absolute;
     z-index: 3;
-  
+    width: 100%;
+    top:0;
+    right: 0;
 }
 #dashbroad {
     position: absolute;

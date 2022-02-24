@@ -39,10 +39,6 @@
     {
       "name": "Pants",
       "id": 6
-    },
-    {
-      "name": "Bag",
-      "id": 7
     }
   ],
   "products": [
@@ -185,6 +181,103 @@
       "productId": 12,
       "content": "Tuyệt vời",
       "id": 5
+    },
+    {
+      "userId": 2,
+      "productId": 4,
+      "content": "tốt",
+      "id": 6
+    },
+    {
+      "userId": 2,
+      "productId": 9,
+      "content": "Váy đẹp",
+      "id": 7
+    }
+  ],
+  "orders": [
+    {
+      "idKH": 2,
+      "nameKH": "Phạm Thu Trang",
+      "phoneKH": "0354610770",
+      "ptttKH": "0",
+      "cart": [
+        {
+          "name": "Áo thun nữ màu trơn",
+          "price": 200,
+          "sale": 0,
+          "image": "https://img.ltwebstatic.com/images3_pi/2021/12/16/1639618106457f01b0a26df53b42e1e082f1fcbafe_thumbnail_900x.webp",
+          "desc": "<p>• Chất liệu: len cao cấp được dệt 100% tự nhiên.</p><p>• 2 túi thân áo.</p><p>• Logo Dico được dệt trực tiếp lên mặt trước và sau áo.</p><p>• Bo tay, bo thân và bo cổ trùng màu áo.</p>",
+          "id": 1,
+          "categoryProductId": 1,
+          "quantity": 4
+        },
+        {
+          "name": "DirtyCoins Green Tie-dye Hoodie - Dirty Coins",
+          "price": 990,
+          "sale": 0,
+          "image": "https://bizweb.dktcdn.net/100/369/010/products/green-tie-dye-hoodie-1-w.jpg?v=1608971185000",
+          "desc": "<p>• Chất liệu: len cao cấp được dệt 100% tự nhiên.</p><p>• 2 túi thân áo.</p><p>• Logo Dico được dệt trực tiếp lên mặt trước và sau áo.</p><p>• Bo tay, bo thân và bo cổ trùng màu áo.</p>",
+          "id": 6,
+          "categoryProductId": 1,
+          "quantity": 1
+        }
+      ],
+      "sumCart": 1790,
+      "status": "Chờ xác nhận",
+      "id": 1
+    },
+    {
+      "idKH": 2,
+      "nameKH": "Nguyễn Văn A",
+      "phoneKH": "0354610770",
+      "ptttKH": "1",
+      "cart": [
+        {
+          "name": "Áo thun nữ màu trơn",
+          "price": 200,
+          "sale": 100,
+          "image": "https://img.ltwebstatic.com/images3_pi/2021/11/19/1637306137bc8b70cb6ad5df2cf196004990b69236_thumbnail_900x.webp",
+          "desc": "<p>• Chất liệu: len cao cấp được dệt 100% tự nhiên.</p><p>• 2 túi thân áo.</p><p>• Logo Dico được dệt trực tiếp lên mặt trước và sau áo.</p><p>• Bo tay, bo thân và bo cổ trùng màu áo.</p>",
+          "id": 2,
+          "categoryProductId": 1,
+          "quantity": 3
+        },
+        {
+          "name": "DirtyCoins Green Tie-dye Hoodie - Dirty Coins",
+          "price": 990,
+          "sale": 0,
+          "image": "https://bizweb.dktcdn.net/100/369/010/products/green-tie-dye-hoodie-1-w.jpg?v=1608971185000",
+          "desc": "<p>• Chất liệu: len cao cấp được dệt 100% tự nhiên.</p><p>• 2 túi thân áo.</p><p>• Logo Dico được dệt trực tiếp lên mặt trước và sau áo.</p><p>• Bo tay, bo thân và bo cổ trùng màu áo.</p>",
+          "id": 6,
+          "categoryProductId": 1,
+          "quantity": 1
+        }
+      ],
+      "sumCart": 1590,
+      "status": "Chờ xác nhận",
+      "id": 2
+    },
+    {
+      "idKH": 2,
+      "nameKH": "Phạm Thu Trang",
+      "phoneKH": "0354610770",
+      "ptttKH": "0",
+      "cart": [
+        {
+          "name": "Áo thun nữ màu trơn",
+          "price": 200,
+          "sale": 100,
+          "image": "https://img.ltwebstatic.com/images3_pi/2021/11/19/1637306137bc8b70cb6ad5df2cf196004990b69236_thumbnail_900x.webp",
+          "desc": "<p>• Chất liệu: len cao cấp được dệt 100% tự nhiên.</p><p>• 2 túi thân áo.</p><p>• Logo Dico được dệt trực tiếp lên mặt trước và sau áo.</p><p>• Bo tay, bo thân và bo cổ trùng màu áo.</p>",
+          "id": 2,
+          "categoryProductId": 1,
+          "quantity": 2
+        }
+      ],
+      "sumCart": 400,
+      "status": "Chờ xác nhận",
+      "id": 3
     }
   ]
 }
